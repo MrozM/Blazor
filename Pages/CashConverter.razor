@@ -1,0 +1,46 @@
+﻿@page "/cashConverter"
+<h3>CashConverter</h3>
+<div class="form-group">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label>Value in $: </label>
+            <input type="number" class="form-control" placeholder="Dollars ...." @bind="_dollars" />
+
+            <label>Converted value: </label>
+            <input type="number" class="form-control" placeholder="przelicznik ...." @bind="_currency" />
+
+        </div>
+
+    </div>
+    <div>
+        <button class="btn btn-primary" @onclick="ConvertCurrency">
+            <span class="oi oi-dollar" aria-hidden="true"></span> Convert
+        </button>
+    </div>
+</div>
+
+@if (convertedCurrency != null)
+{
+    <div class="row blockquote mt-5">
+        <span>@_dollars $ equals @convertedCurrency PLN </span>
+    </div>
+}
+
+@code {
+    double? _dollars = null;
+    double? _currency = null;
+    public double? convertedCurrency = null;
+
+
+    public void ConvertCurrency()
+    {
+        if (_currency == null)
+        {
+            convertedCurrency = _dollars * 3.96;
+        }
+        else
+        {
+            convertedCurrency = _dollars * _currency;
+        }
+    }
+}

@@ -82,6 +82,13 @@ using CodeInterpreterWA.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\_Imports.razor"
+using CodeInterpreterWA.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -90,7 +97,7 @@ using CodeInterpreterWA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Shared\NavMenu.razor"
+#line 40 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

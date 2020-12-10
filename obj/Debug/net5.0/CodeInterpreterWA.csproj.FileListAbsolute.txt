@@ -637,3 +637,7 @@ C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpret
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\TimeConverter.razor.g.cs
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\DistanceConverter.razor.g.cs
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\DistanceConverter.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\Todo.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\Todo.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\CashConverter.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\CashConverter.razor.g.cs

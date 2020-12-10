@@ -82,6 +82,13 @@ using CodeInterpreterWA.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\_Imports.razor"
+using CodeInterpreterWA.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/converters")]
     public partial class Converters : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,12 +98,13 @@ using CodeInterpreterWA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\Converters.razor"
+#line 27 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\Converters.razor"
        
     readonly List<Converter> converters = new List<Converter>
         {
             new Converter(id:1, nameOfConverter: "Time Converter"),
-            new Converter(id:2, nameOfConverter: "Distance Converter")
+            new Converter(id:2, nameOfConverter: "Distance Converter"),
+            new Converter(id:3, nameOfConverter: "Cash Converter")
         };
 
     int selectedConverterId;

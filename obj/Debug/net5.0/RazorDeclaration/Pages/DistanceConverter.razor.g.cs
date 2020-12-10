@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace CodeInterpreterWA.Shared
+namespace CodeInterpreterWA.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,7 @@ using CodeInterpreterWA.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class DistanceConverter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +90,24 @@ using CodeInterpreterWA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Shared\NavMenu.razor"
+#line 17 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\DistanceConverter.razor"
        
-    private bool collapseNavMenu = true;
+    double? _inches = null;
+    double? _meters = null;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    public double? Meters
     {
-        collapseNavMenu = !collapseNavMenu;
+        get => _meters;
+        set
+        {
+            _meters = value;
+            ConvertDistance();
+        }
+    }
+
+    public void ConvertDistance()
+    {
+        _inches = Meters / 0.0254d;
     }
 
 #line default

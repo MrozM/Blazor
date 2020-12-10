@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace CodeInterpreterWA.Shared
+namespace CodeInterpreterWA.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,7 @@ using CodeInterpreterWA.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class TimeConverter : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,15 +90,15 @@ using CodeInterpreterWA.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 30 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Shared\NavMenu.razor"
+#line 22 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\TimeConverter.razor"
        
-    private bool collapseNavMenu = true;
+    int? _seconds = null;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    public int? Hours { get; set; }
 
-    private void ToggleNavMenu()
+    private void ConvertTime()
     {
-        collapseNavMenu = !collapseNavMenu;
+        _seconds = Hours * 3600;
     }
 
 #line default

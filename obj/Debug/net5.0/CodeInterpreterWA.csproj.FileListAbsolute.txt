@@ -631,3 +631,9 @@ C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpret
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\bin\Debug\net5.0\wwwroot\_framework\Markdig.dll.gz
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\bin\Debug\net5.0\wwwroot\_framework\Markdig.dll
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\build-gz\jZw6I8Uj.gz
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\Converters.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\TimeConverter.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\Converters.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\TimeConverter.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\DistanceConverter.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\DistanceConverter.razor.g.cs

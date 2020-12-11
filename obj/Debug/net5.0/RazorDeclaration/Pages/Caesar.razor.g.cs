@@ -98,10 +98,10 @@ using CodeInterpreterWA.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\Caesar.razor"
+#line 25 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\Caesar.razor"
        
     char[] alphabet = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
-    int key;
+    int? key;
     string toEncrypt = "";
 
     string encrypted = " ";
@@ -117,7 +117,7 @@ using CodeInterpreterWA.Models;
             char item = messageArray[i];
 
             int chIndex = Array.IndexOf(alphabet, item);
-            int charPosition = (chIndex += key) % 26;
+            int charPosition = (chIndex += (int)key) % 26;
             char cipherChar = alphabet[charPosition];
             encryptedMessage[i] = cipherChar;
 

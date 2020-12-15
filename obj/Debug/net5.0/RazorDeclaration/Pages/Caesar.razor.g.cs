@@ -98,31 +98,43 @@ using CodeInterpreterWA.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 25 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\Caesar.razor"
+#line 18 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\Caesar.razor"
        
-    char[] alphabet = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
-    int? key;
+    string encrypted = "";
+    int key = 0;
     string toEncrypt = "";
 
-    string encrypted = " ";
-
-    public void caesarCipher()
+    private void caesarCipher()
     {
+        char[] alphabet = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
         char[] messageArray = toEncrypt.ToCharArray();
-
         char[] encryptedMessage = new char[messageArray.Length];
 
-        for (int i = 0; i < messageArray.Length; i++)
-        {
-            char item = messageArray[i];
 
-            int chIndex = Array.IndexOf(alphabet, item);
-            int charPosition = (chIndex += (int)key) % 26;
-            char cipherChar = alphabet[charPosition];
-            encryptedMessage[i] = cipherChar;
+        if (toEncrypt == "")
+        {
+            encrypted = "insert values!";
+        }
+        else if (key < 0)
+        {
+            encrypted = "key cannot be less than zero!";
+        }
+        else
+        {
+
+            for (int i = 0; i < messageArray.Length; i++)
+            {
+                char item = messageArray[i];
+
+                int chIndex = Array.IndexOf(alphabet, item);
+                int charPosition = (chIndex += (int)key) % 26;
+                char cipherChar = alphabet[charPosition];
+                encryptedMessage[i] = cipherChar;
+
+            }
+            encrypted = String.Join("", encryptedMessage);
 
         }
-        encrypted = String.Join("", encryptedMessage);
 
     }
 

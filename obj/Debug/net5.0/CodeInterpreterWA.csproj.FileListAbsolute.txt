@@ -396,7 +396,6 @@ C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpret
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.1.js
-C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\CodeInterpreterWA.csprojAssemblyReference.cache
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\CodeInterpreterWA.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\CodeInterpreterWA.AssemblyInfoInputs.cache
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\CodeInterpreterWA.AssemblyInfo.cs
@@ -643,3 +642,4 @@ C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpret
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\CashConverter.razor.g.cs
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\RazorDeclaration\Pages\Caesar.razor.g.cs
 C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\Razor\Pages\Caesar.razor.g.cs
+C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\obj\Debug\net5.0\CodeInterpreterWA.csprojAssemblyReference.cache

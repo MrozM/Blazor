@@ -100,21 +100,14 @@ using CodeInterpreterWA.Models;
 #nullable restore
 #line 29 "C:\Users\Maciek\Desktop\Politechnika\SDP2020_new\CodeInterpreterWA\CodeInterpreterWA\Pages\CashConverter.razor"
        
-    double? _dollars = null;
-    double? _currency = null;
+        double? _dollars = null;
+        double? _currency = null;
     public double? convertedCurrency = null;
 
 
-    public void ConvertCurrency()
+    private void ConvertCurrency()
     {
-        if (_currency == null)
-        {
-            convertedCurrency = _dollars * 3.96;
-        }
-        else
-        {
-            convertedCurrency = _dollars * _currency;
-        }
+        convertedCurrency = _currency != null ? _dollars * _currency : _dollars * 3.96;
     }
 
 #line default
